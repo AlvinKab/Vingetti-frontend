@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Vingetti-frontend/static/css/main.acbb2fec.css",
+    "main.js": "/Vingetti-frontend/static/js/main.ac2e7c59.js",
+    "static/media/ferriswheel.jpeg": "/Vingetti-frontend/static/media/ferriswheel.ac085ce5f769d3a80d9b.jpeg",
+    "index.html": "/Vingetti-frontend/index.html",
+    "main.acbb2fec.css.map": "/Vingetti-frontend/static/css/main.acbb2fec.css.map",
+    "main.ac2e7c59.js.map": "/Vingetti-frontend/static/js/main.ac2e7c59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acbb2fec.css",
+    "static/js/main.ac2e7c59.js"
+  ]
+}
