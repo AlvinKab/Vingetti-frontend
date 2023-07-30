@@ -54,9 +54,10 @@ body {
 }
 
 .new-customer-form {
-    transform: rotateZ(20deg);
+    transform: rotateZ(-10deg);
     background-color: #ffbf00;
     line-height: 2;
+    margin: 50px;
 }
 
 .form-title {
@@ -78,25 +79,29 @@ body {
     height: 50px;
 }
 
-.header {
+header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
     position: sticky;
 }
 
-.header a:any-link {
-    color: turquoise;
+header a:any-link {
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .footer {
     justify-content: center;
     text-align: center;
     position: sticky;
+    bottom: 0;
 }
 
 .container {
     padding: 5px;
+    min-height: 90vh;
 }
 
 .homepage {
@@ -278,6 +283,11 @@ body {
     .name {
         font-size: 1rem;
     }
+
+    .new-customer-form input {
+        max-width: 50%;
+    }
+
     .customer-paid {
         width: 100px;
         height: 30px;

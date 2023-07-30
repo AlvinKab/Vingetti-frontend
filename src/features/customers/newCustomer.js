@@ -73,7 +73,7 @@ const NewCustomerTicket = () => {
                     VINGETTI AMUSEMENT PARK
                 </div>
             </div>
-            <form classname="new-customer-form" onSubmit={onSaveCustomer}>
+            <form className="new-customer-form" onSubmit={onSaveCustomer}>
                 <div className="form-title">
                     <h2>ENTRANCE FEE TICKET</h2>
                 </div>
@@ -118,9 +118,8 @@ const NewCustomerTicket = () => {
                     />
                 </div>
                 <div className="same-line">
-                    <p>Fee: Kshs.1000</p>
-                    <br/>
-                    <p>Paybill No: 282 7245</p>
+                    <p>Fee: Kshs.1000 &nbsp; &nbsp;</p>
+                    <p> &nbsp; &nbsp;Paybill No: 282 7245</p>
                 </div>
                 <div className="same-line">
                     <label>Has the entrance fee been paid? </label>
